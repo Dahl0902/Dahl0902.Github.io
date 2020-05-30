@@ -1,0 +1,69 @@
+body {
+  background: lightgray;
+}
+.navbar {
+  background: white;
+  display: flex;
+  text-align: center;
+}
+.navbar li {
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 3px;
+  text-align: center;
+}
+.home {
+  font-size: 40px;
+  cursor: auto;
+  color: white;
+
+}
+#nav-header {
+  cursor: auto;
+
+}
+.navbar li a {
+  color: #000;
+  text-decoration: none;
+}
+h1 {
+  color: goldenrod; 
+}
+#nav-select {
+  border: none;
+}
+.container {
+  padding-top: 50px;
+}
+.box1 {
+  padding: 40px;
+  background: white;
+  width: 600px;
+}
+.box2 {
+  padding: 20px;
+  background: white;
+  height: 1000px
+}
+.footer {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.databox {
+  padding: 40px;
+  background: white;
+  width: 800px;
+}
+.compbox {
+  background: white;
+  padding: 40px;
+  margin: 100px;
+}

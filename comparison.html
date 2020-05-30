@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <title>Weather Data</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div>
+        <nav class="navbar">
+            <ul class="nav">
+                <li class="active">
+                  <a href='index.html' class='brand' href="#">Home</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                      Plots
+                      <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a tabindex="-1" href="Viz-max-temp.html">Max Temp</a></li>
+                      <li><a tabindex="-1" href="Viz-humidity.html">Humidity</a></li>
+                      <li><a tabindex="-1" href="Viz-wind.html">Wind Speed</a></li>
+                      <li><a tabindex="-1" href="Viz-cloudiness.html">Cloudiness</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="comparison.html">Comparison</a></li>
+                  <li><a href="data.html">Data</a></li>
+              </ul>
+    </div>
+      <div class='container compbox'>
+        <div class='row'>
+          <h1>Comparison</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <img class='img-thumbnail rounded float-right' src='images/temperaturemap.png'>
+            </div>
+            <div class='col-lg-6'>
+                <img class='img-thumbnail rounded float-left' src='images/cloudymap.png'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-lg-6'>
+                <img class='img-thumbnail rounded float-right' src='images/humiditymap.png'>
+            </div>
+            <div class='col-lg-6'>
+                <img class='img-thumbnail rounded float-left' src='images/windmap.png'>
+            </div>
+        </div>
+          </div>
+      <footer class="footer">
+        <div class="container">
+          <span class="text-muted">Data Viz 2020</span>
+        </div>
+      <div>
+      </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>

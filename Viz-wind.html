@@ -6,45 +6,40 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div>
-        <nav class="navbar">
-            <ul class="nav">
-                <li class="active">
-                  <a href='index.html' class='brand' href="#">Home</a>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                      Plots
-                      <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a tabindex="-1" href="Viz-max-temp.html">Max Temp</a></li>
+  <div>
+    <nav class="navbar">
+        <ul class="nav">
+            <li class="active">
+              <a href='index.html' class='brand' href="#">Home</a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  Plots
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="Viz-max-temp.html">Max Temp</a></li>
                     <li><a tabindex="-1" href="Viz-humidity.html">Humidity</a></li>
                     <li><a tabindex="-1" href="Viz-wind.html">Wind Speed</a></li>
                     <li><a tabindex="-1" href="Viz-cloudiness.html">Cloudiness</a></li>
-                    </ul>
-                  </li>
-                <li><a href="comparison.html">Comparison</a></li>
-                <li><a href="data.html">Data</a></li>
-              </ul>
-    </div>
+                </ul>
+              </li>
+            <li><a href="comparison.html">Comparison</a></li>
+            <li><a href="data.html">Data</a></li>
+          </ul>
+</div>
     <div class="container con1">
         <div class="row">
             <div class="col-md-8">
               <div class="box1">
                   
-                <h1>Summary: latitude vs. X</h1>
+                <h1>Wind Speed</h1>
                 <div class='media'>
-                    <img class='img-thumbnail' src='images/temperaturemap.png'>
+                    <img class='img-thumbnail' src='images/windmap.png'>
                 </div>
-                <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.
-                    To acomplish this analysis, we first pulled data from the OpenWeaterMap API to assemble a dataset on over 500 cities.</p>
-                <p> </p>
-                <p>Adter assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. 
-                    Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source
-                    and visualizations created as part of the analysis, as well as explanations and secriptions of any trends
-                    and correlations witnessed.
-                </p>
+                <p>The correlation between wind speeds and latitude is weak at best. The is a slight grouping of higher wind sppeds
+                  in the northern hemisphere.</p>
+                
 
                 </div>
             </div>
