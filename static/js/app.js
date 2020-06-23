@@ -1,3 +1,3 @@
-d3.json('./samples.json').then(function(error, graph) {
-    alert(error);
+d3.json("StarterCode/samples.json").then(function(data) {
+    console.log(data);
 });
