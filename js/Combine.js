@@ -273,11 +273,11 @@ d3.csv("clean_combine_data.csv").then(function (playerData) {
 
     d3.event.preventDefault();
 
-    var inputElement = d3.select("#POS-Input");
+    var inputElement = d3.select("#Year-Input");
 
     var inputValue = inputElement.property("value");
 
-    var filteredData = playerData.filter(Draft_class => Draft_class.POS === inputValue);
+    var filteredData = playerData.filter(Draft_class => Draft_class.Year === inputValue);
 
     console.log(inputValue);
     console.log(filteredData);
